@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="style2.css" media="screen" title="no title" charset="utf-8">
+    <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" media="screen" title="no title" charset="utf-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+  </head>
+  <body>
+    <article id="top" data-role="header">
+      <input type="text" id="name" value="" placeholder="nombre">
+      <input type="text" id="desc" value="" placeholder="descripcion">
+      <input type="text" id="img" value="" placeholder="url de la imagen">
+      <form action="action_page.php">
+        <select name="cars">
+          <option value="autos">autos</option>
+          <option value="herramientas">herramientas</option>
+          <option value="ropa">ropa</option>
+          <option value="calzados">calzados</option>
+        </select>
+      </form>
+      <button type="button" id="arriba" >add top</button>
+      <button type="button" id="abajo">add down</button>
+      <button type="button" id="delete">delete all</button>
+      <button type="button" id="bloque"><span class="ion-ios-keypad"></span></button>
+      <button type="button" id="lista"><span class="ion-ios-list-outline"></span></button>
+    </article>
+    <article id="down">
+
+    </article>
+    <article id="favoritos">
+      <ul id="ulfav"><h1>Favoritos:</h1>
+
+      </ul>
+    </article>
+    <script type="text/javascript" src="jquery-3.1.0.js">  </script>
+    <script type="text/javascript"src="style.js"></script>
+  </body>
+</html>
